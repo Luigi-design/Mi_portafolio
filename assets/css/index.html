@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<!--Responsivo-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--bootstrap 4.1.3 CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+   <!-- Prompt-->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500;700;800&display=swap" rel="stylesheet">
+
+	<!--link de Awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-
+	UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	crossorigin="anonymous">
+	<!--link de la hoja style.css-->
+	<link rel="stylesheet" href="assets/css/script.css">
+	
+	<title>Mi proyecto - Luis Bravo</title>
+</head>
+<body>
+
+	<!--Barra de Navegación-->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top pb-1">
+  <div class="container">
+  <h2 class="letras text-white font-weight-bold">LB</h2>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto"> <!--ml-auto= margen izquierdo automatico-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#acercademi">Sobre mi</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#trabajos">Trabajos</a>
+                </li>
+                 <li class="nav-item active">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+    </ul>
+  </div>
+</nav>
+
+<!--Columnas superior - 1 foto-->
+<div class="container pt-5 mt-5">
+  <div class="card-deck">
+  <div class="card">
+    <img src="assets/img/tienda-1.jpg" class="card-img-top" alt="isometrica de tienda para vehiculos">
+    <div class="card-body">
+    </div>
+  </div>
+
+
+<section class="container mt-2 pt-1">
+
+  <div class="container row">
+    <div class="col-sm ml-5 mt-1 text-dark text-center align-center"><!--columna 2 textos-->
+      <p class="text-2 font-weight-bold"><br>Trabajos de ilustración diseño de editorial, diseño pop y diseño Trabajos de ilustración diseño de editorial, diseño pop y diseño</p>
+      <div><hr class="ancho"></div>
+  </div>
+</section>
+
+
+
+
+<!--Nuevo Carrusel-->
+<div class="container mt-5 mx-5 px-5">
+  <div class="card-deck">
+  <div class="card mx-5 mx-5 bg-secondary">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active carrusel-portafolio">
+      <img src="assets/img/bar-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item carrusel-portafolio">
+      <img src="assets/img/bar-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item carrusel-portafolio">
+      <img src="assets/img/bar-3.jpg" class="d-block w-100" alt="...">
+    </div>
+        <div class="carousel-item carrusel-portafolio">
+      <img src="assets/img/bar-4.jpg" class="d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item carrusel-portafolio">
+      <img src="assets/img/bar-5.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    
+    </div>
+  </div>
+</div>
+<!--Cierre Nuevo Carrusel-->
+
+
+
+
+<!--Línea-->
+ <div class="container text-center font-weight-bold pt-4">
+    <hr>
+   <div id="acercademi"></div> 
+  </div>
+
+
+
+<!-- Recetario-->
+<section class="container mt-2 pt-1">
+
+  <div class="container row">
+    
+    <div class="col-sm ml-5 mt-1 text-dark text-left align-left"><!--columna 2 textos-->
+      <p class="text-2 font-weight-bold">PRESENTACION<br><div><hr class="ancho"></div>Diseñador mención comunicación visual, estudios realizados en la U. de Chile. He trabajado como diseñador ilustrador, diseñador de editorial, diseñador  de marketing y Pop y también con docente del área gráfico digital en varios institutos y universidades de prestigio.<br><br></p>
+
+<!-- Botó0n Tooltip-->
+         <div class="Tooltip pt-2">
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Más recetas en nuestro libro top de recetas por un módico valor, no se arrepentirá">
+           Boton Tooltip</button>
+         </div>
+
+<!-- Botón Dropdown-->
+         <div class="dropdown pt-5">
+              <button class="btn btn-secondary dropdown-toggle" type="button"
+              id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" ariaexpanded="
+              false">
+              Modelado 3D
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="https://www.triesfera.com/"  target="_blank">triesfera</a>
+              <a class="dropdown-item" href="https://all3dp.com/" target="_blank">all3dp</a>
+              <a class="dropdown-item" href="https://www.3dnatives.com/" target="_blank">3dnatives</a>
+          </div>
+    </div>
+  </div>
+
+
+
+     <div class="col-sm ml-5 mt-1 text-dark text-left">
+      <!--columna 2 textos-->
+      <p class="text-2 font-weight-bold">EXPERIENCIA<br><div id="experiencia"><hr class="ancho"></div>DISEÑO, MARKETING Y POP;<br> Realizaciòn de señaléticas,  islas, carruseles, totem, bigboys, lienzos, pendones, cenefas, dispensadores y exhibidores para tiendas Y empresas.<br>
+      Diseño de muebles, volumétricos, stand, maquetas en 3D con cìnema 3D y diseño de ambientación para distintas tiendas del retail.<br>
+      DISEÑO EDITORIAL;<br>Diseño y producción de imagen corporativa, folletería, diagramación de libros, diarios,  envases, merchandising,  etiquetas, envases (diseño de packaging), ilustraciones, troqueles, retoque y pre-prensa digital, realización de montajes para offset con Preps, control del color.
+      <br><br></p>
+    </div>
+   
+  </div>
+
+</section>
+
+
+<!--Línea-->
+  <div class="container text-center my-2">
+    <hr>
+  </div>
+
+
+<!-- ojo Mi experiencia-->
+
+<section class="container mt-2 pt-1">
+
+  <div class="container row">
+    
+    <div class="col-sm ml-5 mt-1 text-dark text-left">
+    <h1 class="text-center text-dark font-weight-bold"> MI EXPERIENCIA</h1>
+      </div>
+</div>
+    </section>
+
+<section class="container mt-2 pt-1">
+  <div class="container row">
+    
+    <div class="col-sm ml-5 mt-1 text-dark"><!--columna 2 textos-->
+    <img src="assets/img/icono-1.jpg" class="card-img-top d-block w-75 align-left" alt="icono circulo"><br>
+    <p class="text-2 font-weight-bold text-center">ILUSTRADOR<br>1994-2005</P>
+      </div>
+
+     <div class="col-sm ml-5 mt-1 text-dark align-center"><!--columna 2 textos-->
+    <img src="assets/img/letraM.jpg" class="card-img-top d-block w-75" alt="letra M"><br>
+    <p class="text-2 font-weight-bold text-center ">MODELADOR 3D<br>2015-2020</P>
+
+    </div>
+  </div>
+
+</section>
+
+
+<!--Línea-->
+  <div class="container text-center my-2">
+    <hr>
+  </div>
+
+
+<div class="container p-2">
+   <div id="trabajos">
+    <p> <h2 class="text-center text-dark font-weight-bold"> MIS ULTIMOS TRABAJOS </h2></p>
+  </div>
+ </div>
+
+
+
+<!--Columnas inferiores con 3 fotos-->
+
+<div class="container pt-3 mt-2">
+	<div class="card-deck">
+  <div class="card">
+    <img src="assets/img/meet&coffee.jpg" class="card-img-top" alt="Proyecto meet&coffee">
+    <div class="card-body">
+      <h5 class="card-title">Meet&Coffee</h5>
+      <p class="card-text">Html y Css</p>
+    </div>
+        <div class="text-center">
+
+     <!--BOTON MEET&COFFEE-->
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#PANQUEQUES">
+  Más detalles</button>
+  </div>
+  </div>
+
+
+  <div class="card">
+    <img src="assets/img/Iguana.jpg" class="card-img-top" alt="Proyecto Iguana">
+    <div class="card-body">
+      <h5 class="card-title">Iguana</h5>
+      <p class="card-text">Html y Css</p>
+      <div class="text-center">
+
+    
+     <!--BOTON Modal Iguana-->
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#IGUANA">
+  Más detalles</button>
+  </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img src="assets/img/Suricata.jpg" class="card-img-top" alt="Proyecto suricata">
+    <div class="card-body">
+      <h5 class="card-title">Suricata</h5>
+      <p class="card-text">Html y Css</p>
+    </div>
+    <div class="text-center">
+
+     <!--BOTON Modal Suricata-->
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#SURICATA">
+  Más detalles</button>
+  </div>
+  </div>
+</div>
+
+<!--Ventana Modal 1 Meet&Coffee-->
+
+<div class="modal fade" id="PANQUEQUES" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PROYECTO MEET&COFFEE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/meet&coffee.jpg" alt="Proyecto meet&coffee"class="img-fluid my-1">
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Cierre Ventana Modal Meet&Coffee-->
+
+
+<!--Ventana Modal 2 Iguana-->
+
+<div class="modal fade" id="IGUANA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PROYECTO IGUANA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/Iguana.jpg" alt="Proyecto Iguana"class="img-fluid my-1">
+        El Proyeto Iguana fué desarrollado 15 de Julio de 2020 bajo la dirección del profesor Mario y por encargo de AIEP. Debía cumplir los requisitos de...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Cierre Ventana Modal Iguana-->
+
+
+<!--Ventana Modal 3 Suricata-->
+
+<div class="modal fade" id="SURICATA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PROYECTO SURICATA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/Suricata.jpg" alt="Proyecto Suricata"class="img-fluid my-1">
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Cierre Ventana Modal Suricata-->
+
+
+<!--Columnas inferiores B con 3 fotos-->
+
+<div class="container pt-3 mt-2">
+  <div class="card-deck">
+  <div class="card">
+    <img src="assets/img/Cupon.jpg" class="card-img-top" alt="Proyecto Cupon">
+    <div class="card-body">
+    <h5 class="card-title">Proyecto Cupon</h5>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img src="assets/img/OficinaDehesa-2.jpg" class="card-img-top" alt="Stand y Oficinas">
+    <div class="card-body">
+   <h5 class="card-title">Stand y Oficinas</h5>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img src="assets/img/Ricomida3B.jpg" class="card-img-top" alt="Proyecto Ricomida">
+    <div class="card-body">
+      <h5 class="card-title">Ricomida</h5>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--Texto-->
+<div class="container p-3">
+   <div id="contacto">
+    <p> <h3 class="text-center font-weight-bold"> CONTACTO </h3></p>
+        <p> <h3 class="text-center text-dark">Suscribete con nosotros</h3></p>
+  </div>
+ </div>
+
+<!--Formulario-->
+<div class="typeform-widget" data-url="https://form.typeform.com/to/zLkCBdZn" style="width: 100%; height: 200px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=zLkCBdZn&utm_source=typeform.com-01EE1GQZBGA0TMGARJAGX0AVFK-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
+
+<!--Footer-->
+
+<footer id="contacto" class="oscuro py-3">
+<div>
+<p class="texto-footer font-weight-bold text-white">DISEÑO FRONT END</p></div>
+<div class="iconos">
+<a href="https://github.com"><i class="fab fa-github-square fa-3x"></i></a>
+<a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x"></i></a>
+<a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x"></i></a>
+<a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i></a>
+</div>
+</footer>
+
+
+
+<!--jQuery 3.3.1 sin slim-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!--Popper JS 1.14.3-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <!--Bootstrap JS 4.2.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="assets/js/javascript.js"></script>
+</body>
+
+
+</html>
